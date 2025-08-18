@@ -59,7 +59,7 @@ function RE:InterpretResult(rowId)
 	if not rowData.isSoloShuffle then
 		if rowData.PlayerSide == rowData.Winner then
 			result = "win"
-		elseif rowData.Winner == 255 or rowData.Winner == nil then
+		elseif rowData.Winner == nil or rowData.Winner < 0 or rowData.Winner > 1 then
 			result = "draw"
 		else
 			result = "loss"
