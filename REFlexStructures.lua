@@ -345,7 +345,7 @@ RE.BGStructure = {
 		["align"] = "CENTER"
 	},
 	{
-		["name"] = HONOR,
+		["name"] = "MMV",
 		["width"] = 65,
 		["color"] = {
 			["r"] = 0.80,
