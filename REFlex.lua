@@ -847,7 +847,7 @@ function RE:UpdateBGData(all)
 			playeData[3],
 			RE:AbbreviateNumbers(playeData[10]),
 			RE:AbbreviateNumbers(playeData[11]),
-			playeData[5],
+			playeData[14],
 			RE:RatingChangeClean(playeData[13], i),
 			i,
 			playeData[10],
